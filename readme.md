@@ -64,9 +64,9 @@ The analysis is implemented in a **Jupyter Notebook** and focuses on data prepro
 
 ### Key Observations:
 
-* The initial neural network achieved baseline performance with default hyperparameters.
-* By optimizing the number of hidden layers, nodes, and activation functions, the model’s accuracy improved significantly.
-* Further improvements may require advanced techniques like regularization and dropout layers to prevent overfitting.
+   - The initial neural network achieved baseline performance with default hyperparameters.
+   - By optimizing the number of hidden layers, nodes, and activation functions, the model’s accuracy improved significantly.
+   - Further improvements may require advanced techniques like regularization and dropout layers to prevent overfitting.
 ---
 
 ## Author
