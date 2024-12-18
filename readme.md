@@ -9,7 +9,6 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Results](#results)
-- [Author](#author)
 
 ---
 
@@ -68,10 +67,3 @@ The analysis is implemented in a **Jupyter Notebook** and focuses on data prepro
    - By optimizing the number of hidden layers, nodes, and activation functions, the model’s accuracy improved significantly.
    - Further improvements may require advanced techniques like regularization and dropout layers to prevent overfitting.
 ---
-
-## Author
-
-**Kendall Burkett**  
-https://github.com/KendallBurkett?tab=repositories
- 
-kbz1987@icloud.com
