@@ -1,6 +1,5 @@
 ## Neural Networks/Deep Learning
 ---
-
 # Alphabet Soup Charity Optimization
 
 ## Table of Contents
@@ -9,6 +8,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Results](#results)
+- [Dependencies](#dependencies)
 
 ---
 
@@ -22,25 +22,36 @@ The analysis is implemented in a **Jupyter Notebook** and focuses on data prepro
 
 ## Data Files
 
-| File Name                          | Description                                      |
-|------------------------------------|--------------------------------------------------|
-| `AlphabetSoupCharity_Optimization.ipynb` | Jupyter Notebook for building and evaluating neural networks. |
+| File Name                          | Description                                                 |
+|------------------------------------|-------------------------------------------------------------|
+| `AlphabetSoupCharity_Optimization.ipynb` | Jupyter Notebook implementing the deep learning model.       |
+| `trained_model.h5`                 | Saved trained neural network model in HDF5 format.           |
+| `requirements.txt`                 | Required dependencies for running the project.               |
+| `readme.md`                        | Project description and instructions.                       |
+
 
 ---
 
 ## Features
 
 1. **Data Preprocessing**:
-   - Cleans and encodes categorical data.
-   - Scales numerical features for model input.
+   - Cleans and prepares input data for training.
+   - Encodes categorical features and scales numerical data.
 
-2. **Neural Network Implementation**:
-   - Builds and trains a deep learning model using **TensorFlow/Keras**.
-   - Optimizes the model by tuning hyperparameters such as the number of hidden layers, nodes, and activation functions.
+2. **Neural Network Model**:
+   - Builds a binary classification deep learning model using **TensorFlow/Keras**.
+   - Trains and evaluates the model for performance.
 
-3. **Model Evaluation**:
-   - Measures model performance using accuracy and loss metrics.
-   - Provides insights into model optimization strategies to improve results.
+3. **Model Optimization**:
+   - Tests different architectures, including:
+     - Layer adjustments
+     - Neuron count variations
+     - Activation functions
+   - Saves the optimized model as `trained_model.h5`.
+
+4. **Evaluation**:
+   - Reports accuracy and loss metrics.
+   - Iteratively optimizes the model to improve performance.
 
 ---
 
@@ -57,13 +68,36 @@ The analysis is implemented in a **Jupyter Notebook** and focuses on data prepro
      ```bash
      pip install -r requirements.txt
      ```
+
+3. **Run**:
+   - Open Jupyter Notebook:
+     ```bash
+     jupyter lab
+     ```
+   - Run the `AlphabetSoupCharity_Optimization.ipynb` notebook.
+
+4. **Model Output**:
+   - The trained model is saved as `trained_model.h5` after execution.
 ---
 
 ## Results
 
-### Key Observations:
+### Key Outcomes:
 
-   - The initial neural network achieved baseline performance with default hyperparameters.
-   - By optimizing the number of hidden layers, nodes, and activation functions, the model’s accuracy improved significantly.
-   - Further improvements may require advanced techniques like regularization and dropout layers to prevent overfitting.
+1. **Model Performance**:
+   - The final model achieved [INSERT FINAL ACCURACY]% accuracy.
+   - Training and validation loss/accuracy trends were analyzed for optimization.
+
+2. **Model Optimization**:
+   - Adjustments to layer counts and neurons improved overall model performance.
+   - Saved the optimized model for reuse.
+
+3. **Final Model**:
+   - Saved model: `trained_model.h5`
+---
+
+## Dependencies
+
+Refer to `requirements.txt` for package versions.
+
 ---
